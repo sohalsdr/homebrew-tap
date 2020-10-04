@@ -1,4 +1,4 @@
-class Javarepl < Formula
+class mdMathTool < Formula
     desc "A tool to help work with inline math in Markdown files, written in Java."
     homepage "https://github.com/sohalsdr/mdMathTool"
     # Remember to update the url for every release!
