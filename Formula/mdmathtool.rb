@@ -13,7 +13,7 @@ class Javarepl < Formula
     depends_on java: "1.8"
   
     def install
-      libexec.install "mdMathTool-#{version}.jar"
+      libexec.install "mdMathTool_#{version}.jar"
       (libexec/"bin").write_jar_script libexec/"mdMathTool_#{version}.jar", "mdmathtool"
       (libexec/"bin/mdmathtool").chmod 0755
       (bin/"mdmathtool").write_env_script libexec/"bin/mdmathtool", Language::Java.java_home_env("1.8")
