@@ -6,7 +6,7 @@ class Javarepl < Formula
     # Regen the SHA256 too, can be done using shasum -a 256 <file>
     sha256 "5a87dfe8efa80b15c5f124f9f4c9343cc62d4df82d564010d5288449de85cceb"
     license "MIT"
-    revision 1.1.2
+    revision 1
   
     bottle :unneeded
   
