@@ -2,9 +2,9 @@ class Mdmathtool < Formula
     desc "A tool to help work with inline math in Markdown files, written in Java."
     homepage "https://github.com/sohalsdr/mdMathTool"
     # Remember to update the url for every release!
-    url "https://github.com/sohalsdr/mdMathTool/releases/download/1.1.2/mdMathTool_1.1.2.jar"
+    url "https://github.com/sohalsdr/mdMathTool/releases/download/1.2.0/mdMathTool_1.2.0.jar"
     # Regen the SHA256 too, can be done using shasum -a 256 <file>
-    sha256 "5a87dfe8efa80b15c5f124f9f4c9343cc62d4df82d564010d5288449de85cceb"
+    sha256 "6423e6274c6cf6aded7e9cdd0d0df9a2365304bf9896482f0a9816436bac2683"
     license "MIT"
     revision 1
   
